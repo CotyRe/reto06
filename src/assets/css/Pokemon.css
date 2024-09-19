@@ -1,0 +1,70 @@
+.sectionPokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: solid 1px #1282a2;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #034078;
+}
+ul li a:hover{
+    color: #fefcfb;
+}
+
+ul li:hover{
+    background-color: #1282a2;
+    color: #fefcfb;
+}
+
+.btnFav{
+    padding: 5px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.btnFav:hover{
+    background-color: #001f54;
+    border: none;
+}
+
+.sectionPokemon img{
+    width: 300px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.sectionPokemon img:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.sectionPokemon img:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.sectionPokemon h2{
+    text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+nav{
+    background-color:#001f54;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+nav a{
+    color: #fefcfb;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #1282a2;
+}
